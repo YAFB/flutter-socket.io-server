@@ -8,7 +8,7 @@ const app = express();
 // Node SERVER
 const server = require('http').createServer(app);
 module.exports.io = require('socket.io')(server);
-require("./sockets/socket");
+require("./sockets/socket.js");
 
 
 
